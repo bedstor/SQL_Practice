@@ -30,3 +30,5 @@ cursor.execute('''DELETE FROM tasks WHERE status = "Выполнено"''')
 
 db.commit()
 db.close()
+
+# Этот коммит сделан через консоль Git!
