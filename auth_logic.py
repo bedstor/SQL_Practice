@@ -20,7 +20,7 @@ name_ans = input('Введите имя\n')
 
 
 # Проверяем имя и записываем в переменную
-cursor.execut("SELECT visits FROM users WHERE name = ?", (name_ans,))
+cursor.execute("SELECT visits FROM users WHERE name = ?", (name_ans,))
 user_data = cursor.fetchone()
 
 
